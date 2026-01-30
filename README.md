@@ -31,28 +31,26 @@ This project demonstrates the design of a **Multiply–Accumulate (MAC) unit** a
 
 ## Project Structure
 
-Mac-based-matrix-multiplication-RTL/
-├── rtl/
-│   ├── multiplier.v          # Basic multiplier module
-│   ├── mac_datapath.v        # MAC datapath (mul + accumulator)
-│   ├── mac_control.v         # FSM-based control logic
-│   ├── mac_top.v             # Top-level MAC accelerator
-│   ├── matrix_mul_top.v      # Fixed-size matrix multiplication (baseline)
-│   └── matrix_mul_nxn.v      # Parameterized N×N matrix multiplication
-│
-├── tb/
-│   ├── tb_mac.v              # Testbench for standalone MAC unit
-│   ├── tb_matrix_mul.v       # Testbench for matrix_mul_top
-│   └── tb_matrix_mul_nxn.v   # Testbench for N×N matrix multiplication
-│
-├── waveforms/
-│   ├── README.md             # Waveform description
-│   └── matrix_mul_nxn_waveform.png  # GTKWave verification output
-│
-├── README.md                 # Project documentation
-└── LICENSE                   # MIT License
-
-
+    Mac-based-matrix-multiplication-RTL/
+    ├── rtl/
+    │   ├── multiplier.v
+    │   ├── mac_datapath.v
+    │   ├── mac_control.v
+    │   ├── mac_top.v
+    │   ├── matrix_mul_top.v
+    │   └── matrix_mul_nxn.v
+    │
+    ├── tb/
+    │   ├── tb_mac.v
+    │   ├── tb_matrix_mul.v
+    │   └── tb_matrix_mul_nxn.v
+    │
+    ├── waveforms/
+    │   ├── README.md
+    │   └── matrix_mul_nxn_waveform.png
+    │
+    ├── README.md
+    └── LICENSE
 
 ---
 
